@@ -1,0 +1,18 @@
+Firebase console--->login
+
+
+project overview->project setting->cloud messaging->serverkey->Copy
+
+App->logout->log.e->print GCM Token->Copy
+
+
+Check notification:
+
+  firebase-->grow--->enlarge-->cloud messaging
+
+
+
+    enter text
+
+    log.e--->FCM token---->copy--->paste
+

@@ -1,0 +1,29 @@
+   
+Image icon:
+-------
+  1)Flaticon-->Svg download
+  2)Svg to vector
+  3)Drawable paste--->you can change the color code
+
+
+App_icon:  Size(Mipmap)
+-----------------------
+  1) Android Asset Studio
+  2)Copy all mipmap file and paste it in res file
+
+color picker from image
+---------------------------
+
+  1) you can pick the color from this web page
+
+
+
+diawi---> used for testing the apk
+
+ We have completed the customization of Spanish Language in Carnow Android Project.Kindly check and update the feedback.
+
+
+
+
+
+

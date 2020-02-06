@@ -1,0 +1,86 @@
+MODULE APP:
+-----------------
+
+
+productFlavors {
+    live {
+        buildConfigField "String", "SERVER_URL", '"https://www.naturalglam.com/"'
+        buildConfigField "String", "App_Name", '"Natural Glam"'
+        manifestPlaceholders = [appLabel: "Natural Glam"]
+    }
+    beta {
+        applicationIdSuffix ".beta"
+        buildConfigField "String", "SERVER_URL", '"https://beta.naturalglam.com/"'
+        buildConfigField "String", "App_Name", '"Natural Glam"'
+        manifestPlaceholders = [appLabel: "Natural Glam"]
+    }
+    staging {
+        applicationIdSuffix ".staging"
+        buildConfigField "String", "SERVER_URL", '"https://naturalglam.casperon.co/"'
+        buildConfigField "String", "App_Name", '"NG Staging"'
+        manifestPlaceholders = [appLabel: "NG Staging"]
+    }
+    local {
+        applicationIdSuffix ".local"
+        buildConfigField "String", "SERVER_URL", '"http://192.168.1.40:3004/"'
+        buildConfigField "String", "App_Name", '"NG Local"'
+        manifestPlaceholders = [appLabel: "NG Local"]
+    }
+}
+
+
+MODULE APP
+---------------
+flavorDimensions "default"
+signingConfigs {
+    release {
+        keyAlias 'ng'
+        keyPassword 'googleandroid'
+        storeFile file('C:/MyAndroidWorkSpace/NG/NG/naturalglamuser.jks')
+        storePassword 'googleandroid'
+    }
+}
+def getVersionCode() {
+    def propertiesFile = file('version.properties')
+    if (!propertiesFile.canRead()) {
+        throw new GradleException("Could not read " + propertiesFile.name)
+    }
+    Properties properties = new Properties()
+    properties.load(new FileInputStream(propertiesFile))
+    def code = properties['VERSION_CODE'].toInteger()
+    return code
+}
+def getVersionName() {
+    def propertiesFile = file('version.properties')
+    if (!propertiesFile.canRead()) {
+        throw new GradleException("Could not read " + propertiesFile.name)
+    }
+    Properties properties = new Properties()
+    properties.load(new FileInputStream(propertiesFile))
+    def code = properties['VERSION_NAME'].toString()
+    return code
+}
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+
+
+MODULE PLACEAUTO COMPLETE
+-------------------------------
+flavorDimensions "default"
+productFlavors {
+    live
+    beta
+    staging
+    local
+}
+
+
+MANIFEST:
+--------------
+
+ android:label="${appLabel}"
+tools:replace="android:icon, android:label"
+
+
+
