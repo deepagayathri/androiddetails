@@ -1,1 +1,8 @@
-https://medium.1)com/better-programming/7-lessons-i-learned-in-two-years-of-android-development-5d06ee744082
+1)https://medium.1)com/better-programming/7-lessons-i-learned-in-two-years-of-android-development-5d06ee744082
+
+2)https://blog.mindorks.com/speed-up-gradle-build-for-android-to-save-your-time
+3)https://javarevisited.blogspot.com/2011/05/java-heap-space-memory-size-jvm.html
+4)https://blog.mindorks.com/color-palette-in-android
+
+5)https://www.journaldev.com/20567/kotlin-interview-questions
+6)https://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html

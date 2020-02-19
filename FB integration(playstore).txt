@@ -1,0 +1,7 @@
+google play console--->release management--->app signing--->sha1 key-->copy--->firebase console--->
+add fingerprint--->paste sha1 key
+
+
+
+2) sha1 key to keyhash converter--->paste the sha1 key and convert it---> totally u will get
+ 4 keys --->copy base 64 key(ex:mlpvjzZ6Ru1m8dKzO492gswib58=) --->paste 
