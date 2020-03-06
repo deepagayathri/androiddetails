@@ -11,3 +11,11 @@
         <activity
             android:name=".NavigationDrawer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+
+
+
+
+
+laungh one time code: android:launchMode="singleTask"--->manifest

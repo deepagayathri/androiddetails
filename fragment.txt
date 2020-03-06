@@ -4,3 +4,11 @@ Base activity to fragment
                                        
     ft.replace(R.id.content_frame, fragment_trip);
                                         ft.commit();
+
+
+
+clear queue:
+-------------------
+ intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP );
+                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK );
+                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK );

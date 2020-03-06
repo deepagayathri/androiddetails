@@ -6,3 +6,13 @@
 
 5)https://www.journaldev.com/20567/kotlin-interview-questions
 6)https://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html
+7)https://www.raywenderlich.com/2807578-android-studio-tips-and-tricks
+
+8)https://uxplanet.org/16-android-menu-open-source-ui-animation-components-libraries-java-kotlin-9f3e54f64280
+
+9)https://afteracademy.com/blog/what-is-the-two-pointer-technique
+10)https://www-xda--developers-com.cdn.ampproject.org/c/s/www.xda-developers.com/android-11-developer-preview-privacy-security-features-changes/amp
+11)https://android.jlelse.eu/keddit-part-6-api-retrofit-kotlin-d309074af0
+12)https://blog.mindorks.com/implementing-android-slice
+13)https://material.io/design/platform-guidance/android-slices.html#behavior
+14)https://www.journaldev.com/2389/java-8-features-with-examples
